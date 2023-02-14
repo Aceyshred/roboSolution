@@ -1,0 +1,117 @@
+body{
+    width: 100%;
+    height: auto;
+    background-image: url(abstract-5035778_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.nav{
+    /* background: rgb(56,60,181);
+    background: linear-gradient(81deg, rgba(56,60,181,1) 0%, rgba(160,160,213,1) 50%, rgba(18,34,205,1) 100%); */
+    background-color: #2E2E2E
+}
+
+.nav-item{
+    /* background-color: #0050DE; */
+    border: 2px #212529 solid;
+    /* border-radius: 3px; */
+}
+.nav-link{
+    color: white;
+}
+#heading{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Modak', cursive;
+    font-family: 'Noto Sans NKo', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+    color :aliceblue;
+    text-align: center;
+}
+#logo1{
+    color:antiquewhite;
+    font-size: 35px;
+    margin-left: 15px;
+}
+#logo2{
+    font-weight:700;
+    color:rgb(86, 204, 240);
+}
+.logo3{
+    color:antiquewhite;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+.div-1{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,1);
+    transition: 0.3s;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    border-radius: 15px;
+    color:white;
+    /* background-color:white; */
+}
+ .div-1:hover{
+    box-shadow: 0 8px 16px 0 rgba(46, 63, 99, 0.74);
+    background-color: rgba(0, 0, 0, 0.425);
+    color: white;
+} 
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;   
+    background-color:#212529;
+ }
+
+ .table{
+    background-color: rgba(240, 248, 255, 0.795);
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 250px;
+
+ }
+#list1{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+
+}
+.list-group-item{
+    background-color: transparent;
+    color:aliceblue;
+    font-size: 30px;
+    box-shadow: 0 4px 8px 0 rgb(211, 210, 210);
+    transition: 0.3s;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 28px;
+}
+.list-group-item:hover{
+    box-shadow: 0 8px 16px 0 rgba(28, 31, 199, 0.822);
+}
+
+.resume{
+    color:aliceblue;
+    font-size: 35px;
+    text-align:center;
+    margin-top: 45px;
+}
+
+.mb-3{
+    text-align: center;
+    width: 40%
+}
+
+form{
+    text-align: center;
+}
